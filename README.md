@@ -19,6 +19,7 @@ This is a simple platformer with sounds added
 ## INSTRUCTIONS
 
 - WASD or arrow keys to move
+- Space to attack
 - R to reset game if you die
 ---
 
