@@ -175,11 +175,12 @@ export class Game {
     // -----------------------
     if (this.sound) {
       this._unsubs.push(this.events.on("leaf:collected", () => this.sound.play("leafCollect")));
-      this._unsubs.push(this.events.on("player:damaged", () => this.sound.play("hurt")));
-      this._unsubs.push(this.events.on("player:died", () => this.sound.play("die")));
+      this._unsubs.push(this.events.on("player:damaged", () => this.sound.play("hiss")));
+      this._unsubs.push(this.events.on("player:died", () => this.sound.play("catExplode")));
       this._unsubs.push(this.events.on("level:won", () => this.sound.play("win")));
       this._unsubs.push(this.events.on("boar:damaged", () => this.sound.play("hit")));
       this._unsubs.push(this.events.on("player:jumped", () => this.sound.play("jump")));
+      this._unsubs.push(this.events.on("player:attacked", () => this.sound.play("bark")));
     }
 
     if (this.debug) {

@@ -136,6 +136,9 @@ async function boot() {
   soundManager.load("win", "assets/sfx/leafCollect.wav");
   soundManager.load("hit", "assets/sfx/hitEnemy.wav");
   soundManager.load("bark", "assets/sfx/bark.wav");
+  soundManager.load("catExplode", "assets/sfx/catExplode.wav");
+    soundManager.load("hiss", "assets/sfx/hiss.wav");
+
 
 
   // --- Parallax layer defs (VIEW) ---

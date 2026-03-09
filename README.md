@@ -47,6 +47,8 @@ Learning Goals:
 
 Assets not made by me. Pulled from OG class files AND from freesound.org
 https://freesound.org/people/steffcaffrey/sounds/262312/?
+https://freesound.org/people/cmusounddesign/sounds/71984/
+https://freesound.org/people/rickismyname/sounds/819958/
 
 ---
 
