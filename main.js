@@ -129,6 +129,14 @@ async function boot() {
   // --- Audio registry ---
   // (AudioContext may still be locked until the user clicks/presses a key.)
   soundManager = new SoundManager();
+  soundManager.load("jump", "assets/sfx/jump.wav");
+  soundManager.load("leafCollect", "assets/sfx/leafCollect.wav");
+  soundManager.load("hurt", "assets/sfx/receiveDamage.wav");
+  soundManager.load("die", "assets/sfx/receiveDamage.wav");
+  soundManager.load("win", "assets/sfx/leafCollect.wav");
+  soundManager.load("hit", "assets/sfx/hitEnemy.wav");
+  soundManager.load("bark", "assets/sfx/bark.wav");
+
 
   // --- Parallax layer defs (VIEW) ---
   const defs = levelPkg.level?.view?.parallax ?? [];
